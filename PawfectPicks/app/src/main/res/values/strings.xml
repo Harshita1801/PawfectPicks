@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pawfect Picks</string>
+    <string-array name="app_name">
+        <item>Select</item>
+        <item>Dog</item>
+        <item>Cat</item>
+        <item>Bird</item>
+        <item>Rabbit</item>
+    </string-array>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/pet_background">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow_button"
+        android:fontFamily="serif"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:text="HOME"
+        android:textColor="#5E0624"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/myAccountImage"
+        android:layout_width="154dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/myPetsImage"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/myPetsImage"
+        android:layout_width="154dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/paw" />
+
+    <ImageView
+        android:id="@+id/petCareImage"
+        android:layout_width="160dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/petcare" />
+
+    <ImageView
+        android:id="@+id/adoption"
+        android:layout_width="164dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="312dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toEndOf="@+id/petCareImage"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:srcCompat="@drawable/dog_and_cat" />
+
+    <TextView
+        android:id="@+id/myAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="serif"
+        android:shadowColor="#5E0624"
+        android:text="My Account"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myAccountImage" />
+
+    <TextView
+        android:id="@+id/myPets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:shadowColor="#5E0624"
+        android:text="My Pets"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toEndOf="@+id/myAccount"
+        app:layout_constraintTop_toBottomOf="@+id/myPetsImage" />
+
+    <TextView
+        android:id="@+id/petCare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:shadowColor="#5E0624"
+        android:text="Pet Care"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/petCareImage"
+        app:layout_constraintStart_toStartOf="@+id/petCareImage"
+        app:layout_constraintTop_toBottomOf="@+id/petCareImage" />
+
+    <TextView
+        android:id="@+id/adopt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="serif"
+        android:shadowColor="#5E0624"
+        android:text="Adopt a Pet"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/adoption"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/adoption"
+        app:layout_constraintTop_toBottomOf="@+id/adoption" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

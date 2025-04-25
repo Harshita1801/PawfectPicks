@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170898188811",
+    "project_id": "pawfect-picks",
+    "storage_bucket": "pawfect-picks.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170898188811:android:3a12320956f20f0190b50e",
+        "android_client_info": {
+          "package_name": "com.example.pawfectpicks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQKvgLrej71HWDVb81g2U6K7lFFdquKtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
